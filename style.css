@@ -99,6 +99,7 @@ a:active {
 }
 
 hr {
+  border-color: var(--gyn-blue); 
   color: var(--gyn-blue);
   margin-top: 2px;
   margin-bottom: 2px;
