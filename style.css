@@ -6,31 +6,35 @@
   --border: #0e0e0e;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   background: #000000;
   display: grid;
   place-items: center;
-  font-family: monospace;
+  font-size: 17px;
+  font-family: 'Inconsolata', monospace;
+
 }
 
 a {
-    color: var(--gyn-blue);
-    text-decoration: none;
-    cursor: pointer;
+  color: var(--gyn-blue);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 a:visited {
-    color: var(--gyn-blue);
+  color: var(--gyn-blue);
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #ffffff;
-    outline: none;
-    text-decoration: none;
+  color: #ffffff;
+  outline: none;
+
+  text-decoration: none;
 }
 
 .device {
@@ -47,8 +51,7 @@ a:active {
   height: 100%;
   background: var(--bg);
   color: var(--gyn-blue);
-  font-size: 14px;
-  line-height: 1.35;
+  line-height: 1.1;
 }
 
 .header {
@@ -76,6 +79,8 @@ a:active {
 .menu li:hover {
   background: var(--highlight);
   color: #ffffff;
+  font-weight: bold;
+
   a {
     color: #ffffff;
   }
